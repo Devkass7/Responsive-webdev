@@ -45,11 +45,18 @@ body{
             h2{
                 font-size: 2rem;
             }
-            svg{
+
+    .socials-svg{
+        svg{
                 width: 30px;
                 cursor: pointer;
             }
+            display: flex;
+            justify-content: end;
+           gap: 5px;
 
+    }
+            
    img{
     max-width: 300px;
     border: none;
@@ -58,6 +65,34 @@ body{
    }
 
    
+}
+
+.project-links{
+    svg{
+        width: 30px;
+        
+    }
+}
+
+#frame {
+  width: 200px;
+  height: auto;
+ 
+ 
+}
+
+.main-container{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   padding: 20px;
+
+
+   .project-image{
+    width: 300px;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+   }
 }
 
 
