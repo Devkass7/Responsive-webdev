@@ -4,15 +4,18 @@ body{
    background-color: #9c9c9c;
 }
 
-
+#header{
+    display: flex;
+    justify-content: center;
+}
 
 .header-container{ 
-    background-color: #8a858344;
+    /* background-color: #8a858344; */
    display: flex;
    padding: 20px;
    color: #090101;
    gap: 2rem;
-   max-width: 50rem;
+   max-width: 70rem;
    justify-content: center;
    align-items: center;
   
@@ -34,8 +37,9 @@ body{
             }
 
             p{
-                line-height: 1.5rem;
                 text-align: justify;
+                font-size: 1.5rem;
+               line-height: 1.5;
             }
 
             h2{
