@@ -1,4 +1,23 @@
 body{
     margin: 0;
     box-sizing: border-box;
+    background-color: #27213C;
 }
+
+#header{
+   display: flex;
+   padding: 20px;
+   color: #fff;
+   gap: 2rem;
+   max-width: 50rem;
+   justify-content: center;
+   align-items: center;
+
+
+
+
+   img{
+    max-width: 300px;
+   }
+}
+
