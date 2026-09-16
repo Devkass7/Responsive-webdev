@@ -45,6 +45,10 @@ body{
             h2{
                 font-size: 2rem;
             }
+            svg{
+                width: 30px;
+                cursor: pointer;
+            }
 
    img{
     max-width: 300px;
@@ -56,3 +60,14 @@ body{
    
 }
 
+
+@media screen and (max-width:750px) {
+    .header-container{
+        display: flex;
+        flex-direction: column;
+
+        p{
+            font-size: 1rem;
+        }
+    }
+}
