@@ -127,6 +127,13 @@ body{
         }
     }
 
+    .main-container{
+        grid-template-columns: repeat(2,1fr);
+        padding: 20px;
+        gap: 1rem;
+        width: 40%;
+    }
+
 }
 
 
@@ -141,10 +148,5 @@ body{
         }
     }
 
-    .main-container{
-   display: grid;
-    grid-template-columns: repeat(2,1fr);
-   
-    }
-
+    
 }
