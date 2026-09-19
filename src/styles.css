@@ -81,6 +81,14 @@ body{
  
 }
 
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
 .main-container{
    display: grid;
    grid-template-columns: repeat(3, 1fr);
@@ -94,6 +102,25 @@ body{
     border-radius: 10px;
    }
 }
+
+.title-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .project-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        svg{
+            width: 1.5rem;
+        }
+    }
+
+}
+
 
 
 @media screen and (max-width:750px) {

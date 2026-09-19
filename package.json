@@ -1,23 +1,23 @@
 {
-  "name": "restaurant-page",
+  "name": "responsive-webdev",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [],
+  "homepage": "https://github.com/Devkass7/Restaurant-page#readme",
+  "bugs": {
+    "url": "https://github.com/Devkass7/Restaurant-page/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Devkass7/Restaurant-page.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
+  "author": "",
   "type": "module",
-  "bugs": {
-    "url": "https://github.com/Devkass7/Restaurant-page/issues"
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/Devkass7/Restaurant-page#readme",
   "devDependencies": {
     "css-loader": "^7.1.4",
     "html-loader": "^5.1.0",
