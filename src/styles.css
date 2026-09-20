@@ -111,14 +111,32 @@ body{
    }
 }
 
-main{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.work{
+    text-align: center;
+}
+
+.project-cards{
+     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5%;
+    gap: 2%;
+    box-sizing: border-box; /* Ensures padding doesn't cause overflow */
 
     div{
-        background-color: red;
-        width: 20%;
-        height: auto;
+           background-color: red;
+    width: 100%;
+    height: 250px;
+    box-sizing: border-box;
     }
 }
 
