@@ -46,16 +46,7 @@ body{
                 font-size: 2rem;
             }
 
-    .socials-svg{
-        svg{
-                width: 30px;
-                cursor: pointer;
-            }
-            display: flex;
-            justify-content: end;
-           gap: 5px;
 
-    }
             
    img{
     max-width: 300px;
@@ -74,12 +65,6 @@ body{
     }
 }
 
-#frame {
-  width: 200px;
-  height: auto;
- 
- 
-}
 
 #main{
     display: flex;
@@ -122,6 +107,24 @@ body{
     text-align: center;
 }
 
+
+    .socials-svg{
+        svg{
+                width: 30px;
+                cursor: pointer;
+            }
+            display: flex;
+            justify-content: end;
+           gap: 5px;
+
+    }
+
+.cards{
+    padding: 2.5%;
+    border: none;
+    border-radius: 4%;
+    box-shadow: 3px 3px 15px  black;
+}
 .project-cards{
      display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -130,16 +133,26 @@ body{
     margin: 0 auto;
     padding: 5%;
     gap: 2%;
-    box-sizing: border-box; /* Ensures padding doesn't cause overflow */
-
-    div{
-           background-color: red;
-    width: 100%;
-    height: 250px;
     box-sizing: border-box;
+
+
+      div{
+           
+        }
+
+    .p-details{
+        display: flex;
+        justify-content: space-between;
+       align-items: center;
+
+        
     }
 }
 
+iframe{
+    width: 100%;
+    border-radius: 4%;
+}
 
 
 @media screen and (max-width:768px) {
