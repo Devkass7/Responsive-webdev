@@ -136,9 +136,7 @@ body{
     box-sizing: border-box;
 
 
-      div{
-           
-        }
+      
 
     .p-details{
         display: flex;
@@ -152,6 +150,7 @@ body{
 iframe{
     width: 100%;
     border-radius: 4%;
+   
 }
 
 
