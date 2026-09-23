@@ -2,6 +2,7 @@ body{
     margin: 0;
     box-sizing: border-box;
    background-color: #fff;
+   min-height: 100vh;
 }
 
 #header{
@@ -159,11 +160,17 @@ body{
     }
 }
 
+
+
 iframe{
     width: 100%;
     border-radius: 3%;
    
    
+}
+
+footer{
+    margin-top: auto;
 }
 
 
@@ -175,8 +182,10 @@ iframe{
         p{
             font-size: 1rem;
         }
-    }
 
-  
+
+       
+    }
     
 }
+
