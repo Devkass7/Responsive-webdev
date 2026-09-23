@@ -2,7 +2,9 @@ body{
     margin: 0;
     box-sizing: border-box;
    background-color: #fff;
-   min-height: 100vh;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
 }
 
 #header{
@@ -73,6 +75,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 20px;
+    height: fit-content;
 }
 
 .main-container{
@@ -141,9 +144,15 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 5%;
-    gap: 8%;
+    gap: 2rem;
     box-sizing: border-box;
     margin-top: -50px;
+
+
+    img{
+        width: 100%;
+        border-radius: 0.5rem;
+    }
    
 
 
@@ -162,16 +171,17 @@ body{
 
 
 
-iframe{
+/* iframe{
     width: 100%;
     border-radius: 3%;
+    aspect-ratio: 4/3;
+    height: auto;
+    
    
    
-}
+} */
 
-footer{
-    margin-top: auto;
-}
+
 
 
 @media screen and (max-width:768px) {
