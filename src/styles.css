@@ -1,7 +1,7 @@
 body{
     margin: 0;
     box-sizing: border-box;
-   background-color: #9c9c9c;
+   background-color: #fff;
 }
 
 #header{
@@ -119,6 +119,8 @@ body{
 
     }
 
+    
+
 .cards{
     padding: 2.5%;
     border: none;
@@ -132,7 +134,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 5%;
-    gap: 2%;
+    gap: 5%;
     box-sizing: border-box;
 
 
@@ -149,7 +151,7 @@ body{
 
 iframe{
     width: 100%;
-    border-radius: 4%;
+    border-radius: 3%;
    
 }
 
