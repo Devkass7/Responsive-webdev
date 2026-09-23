@@ -2,9 +2,8 @@ body{
     margin: 0;
     box-sizing: border-box;
    background-color: #fff;
-   /* height: 100vh;
-   display: flex;
-   flex-direction: column; */
+   height: 100vh;
+   
 }
 
 #header{
@@ -211,7 +210,10 @@ footer{
         }
 
 
-       
+       footer{
+        
+        flex-direction: row;
+       }
     }
     
 }
