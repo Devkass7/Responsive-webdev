@@ -2,9 +2,9 @@ body{
     margin: 0;
     box-sizing: border-box;
    background-color: #fff;
-   height: 100vh;
+   /* height: 100vh;
    display: flex;
-   flex-direction: column;
+   flex-direction: column; */
 }
 
 #header{
@@ -170,16 +170,33 @@ body{
 }
 
 
-
-/* iframe{
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ccc;
+    padding: 1rem;
+    border-top: 0.3em solid gold;
+    font-weight: bold;
+    color: #140202;
+    font-size: 1.2rem;
     width: 100%;
-    border-radius: 3%;
-    aspect-ratio: 4/3;
-    height: auto;
     
-   
-   
-} */
+    .footer-inner{
+        display: flex;
+        gap: 2.5rem;
+
+        a{
+            
+            text-decoration: none;
+            color: rgb(83, 13, 118);
+            cursor: pointer;
+            margin-left: 0.6rem;
+        }
+    }
+
+}
 
 
 
@@ -190,7 +207,7 @@ body{
         flex-direction: column;
 
         p{
-            font-size: 1rem;
+            font-size: 0.9rem;
         }
 
 
@@ -199,3 +216,12 @@ body{
     
 }
 
+/* @media screen and (max-width:665px) {
+    .cards{
+       width: 40%;
+
+        p{
+            font-size: 0.5rem;
+        }
+    }
+} */
